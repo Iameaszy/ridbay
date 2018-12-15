@@ -4,7 +4,7 @@ import {connect} from 'react-redux';
 import { SharedStyle } from '../../components/styles/shared';
 import loader from '../../assets/icons/index.messenger-typing-preloader.svg';
 import LoginStyle from './login.style';
-
+import Link from './../../assets/icons/link-xxl.png';
 
 const required = (value) => (value ? undefined : 'Required');
 const email = (value) =>
@@ -46,7 +46,7 @@ function Login(props) {
   return (
     <SharedStyle className="Login">
       <LoginStyle>
-          <h2 className="title">LINK<span>CARD</span></h2>
+          <h2 className="title">LINK<span>CARD<img src={Link} alt="" className="link-img"></img></span></h2>
           <form className="form" onSubmit={handleSubmit}>
       {loading && (
         <p className="loading">
