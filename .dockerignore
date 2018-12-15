@@ -1,0 +1,7 @@
+node_modules/
+.env
+.yo-rc.json
+*.log
+*.lcov
+.git
+.DS_Store

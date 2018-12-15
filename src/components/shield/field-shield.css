@@ -1,0 +1,27 @@
+.shadow {
+    position: absolute;
+    top: 0;
+    background: url('../../assets/images/fav4.jpeg')#5D4E56;
+    width: 50%;
+    height: 37.3rem;
+    max-height: 38rem;
+    z-index: 1000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shadow button {
+    width: 8rem;
+    height: 4rem;
+    border: none;
+    border-radius: 3rem;
+    background: #725055;
+    color: white;
+    font-weight: bold;
+    font-size: 14pt;
+    -webkit-box-shadow: 0 0 3px 0px green;
+    box-shadow: 0 0 3px 0px green;
+    outline: none;
+}
