@@ -4,6 +4,9 @@ export default styled.section `
             background: linear-gradient(to bottom right, #8422D5 30% ,#982EBE 80%,#EA6060);
         color:white;
         width: 500px;
+        @media(max-width:760px){
+            width:100%;
+        }
     margin: auto;
         margin-bottom:5rem;
     display: flex;
