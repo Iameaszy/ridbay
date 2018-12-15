@@ -21,6 +21,9 @@ export default styled.section `
         font-size: 50px;
     line-height: 4;
 
+     @media(max-width:568px){
+            font-size:35px;
+        }
     span{
         font-weight:100;
         position:relative;
@@ -32,6 +35,17 @@ export default styled.section `
     position: absolute;
     top: 8px;
     left: 139px;
+            
+    @media(max-width:568px){
+        width: 45px;
+    height: 30px;
+    -webkit-transform: rotate(174deg);
+    -ms-transform: rotate(174deg);
+    transform: rotate(174deg);
+    position: absolute;
+    top: 3px;
+    left: 100px;
+        }
         }
     }
     }
@@ -72,6 +86,10 @@ export default styled.section `
     font-weight: bold;
     box-shadow: 2px 10px 28px rgba(0,0,0,0.4);
 
+
+&:hover{
+        opacity:0.9;
+}
     }
     } 
     }
